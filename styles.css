@@ -1,0 +1,153 @@
+*{
+      margin: 0;
+}
+body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100vw;
+      position: relative;
+      font-size: 1rem;
+      background-color: aliceblue;
+      line-height: 1.5rem;
+      font-family: "Hanken Grotesk";
+}
+.container{
+     
+     display: flex;
+     flex-direction: row;
+     width: 90vw;
+     /* height: 50vh; */
+     max-width: 700px;
+     overflow: hidden;
+     border-radius: 30px;
+     background-color: white;
+     
+}
+.column{
+      flex: 1;
+      padding: 2rem;
+      color: hsl(222, 52%, 89%);
+      text-align: center;
+      
+
+}
+.col1{
+      background: linear-gradient(0deg, hsl(241, 81%, 54%), hsl(252, 100%, 67%) );
+      overflow: hidden;
+      border-radius: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+}
+
+.para{
+      margin-top: 2rem;
+      font-size: 1.30rem;
+      
+}
+.box{
+      width: 170px;
+      height: 170px;
+      border-radius: 50%;
+      margin-left: 23%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: white;
+      background: linear-gradient(178deg,hsl(241, 31%, 46%), hsl(234, 95%, 47%));
+      margin: 3rem 3.5rem;
+      
+}
+.marks{
+      color: white;
+}
+.column h1{
+      color: white;
+}
+.box h1{
+   font-size: 3.5rem;
+}
+.box p{
+      margin-top: 1.5rem;
+      color: hsl(222, 52%, 89%);
+}
+.boxes{
+      border-radius: 10px;
+      padding: 5px;
+}
+
+.col2 h3{
+      color: black;
+      text-align: left;
+      margin-bottom: 2rem;
+      font-size: 1.5rem;
+}
+/* Right column boxes  */
+.boxes{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px;
+      margin-bottom: 1.5rem;
+
+}
+.box1{
+      background-color: hsla(0, 55%, 92%, 0.872);
+      color: red;
+}
+.box2{
+      background-color: hsla(39, 77%, 86%, 0.837);
+      color: hsl(39, 100%, 56%);
+}
+.box3{
+      background-color: hsla(166, 65%, 77%, 0.873);
+      color: hsl(166, 100%, 37%);
+}
+.box4{
+     background-color: hsla(234, 68%, 80%, 0.82);
+     color: hsl(234, 85%, 45%);
+}
+.align_right{
+      text-align: right;
+      margin-left: auto;
+}
+.bold{
+      font-weight: 600;
+      color: black;
+}
+.num{
+      color: grey;
+      font-weight: normal;
+}
+.boxes img{
+      margin-right: 10px;
+}
+button{
+      background: linear-gradient(0deg, hsl(241, 81%, 54%), hsl(252, 100%, 67%) );
+      color: white;
+      text-decoration: none;
+      padding: 0.95rem 6rem;
+      border-radius: 1.5rem;
+      border: none;
+      font-size: 1.2rem;
+      overflow: hidden;
+}
+
+@media (max-width: 500px){
+      .container{
+            flex-direction: column;
+      }
+}
+
+.attribution{
+      position: absolute;
+      bottom: 0;
+      font-size: 11px; 
+      
+      color: hsl(228, 45%, 44%);
+}
